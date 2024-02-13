@@ -10,7 +10,7 @@
 <body>
 
         <div>
-            <p runat="server" cssClass="display-1 fs-2" id="authentication"></p>   
+            <h2 runat="server" cssClass="display-1 fs-2" id="authentication"></h2>   
             <asp:Button text="Logout" CssClass="btn btn-danger" runat="server" ID="Logout" OnClick="Logout_Click"/>
         </div>
 

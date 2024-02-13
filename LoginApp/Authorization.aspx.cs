@@ -9,7 +9,7 @@ namespace LoginApp
         {
             if (Request.Cookies["AuthCookie"] != null)
             {
-                authentication.InnerText = "Benvenuto" + Request.Cookies["AuthCookie"]["username"];
+                authentication.InnerText = "Benvenuto" + " " + Request.Cookies["AuthCookie"]["username"];
             }
             else
             {
